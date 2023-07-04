@@ -18,6 +18,11 @@
   margin-top: 12px;
 }
 
+.bicicleta-imagens ul li:hover {
+  opacity: 50%;
+  cursor: pointer;
+}
+
 .bicicleta-conteudo {
   margin-bottom: 32px;
 }
@@ -55,7 +60,7 @@
 }
 
 .bicicleta-informacoes,
-.bicicleta-ficha { 
+.bicicleta-ficha {
   padding: 32px;
   background: var(--cor-12);
   border-radius: 5px;
@@ -99,13 +104,10 @@
     padding-bottom: 40px;
     gap: 20px;
   }
-  .bicicleta-imagens {
-    
-  }
   .bicicleta-conteudo {
     display: grid;
   }
-  
+
   .bicicleta-conteudo p {
     grid-row: 2;
   }
@@ -121,9 +123,7 @@
   .bicicleta-comprar {
     grid-template-columns: 1fr;
   }
-  .bicicleta-comprar span:nth-child(2){
+  .bicicleta-comprar span:nth-child(2) {
     margin-top: 10px;
   }
 }
-
-
